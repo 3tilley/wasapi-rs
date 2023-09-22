@@ -32,6 +32,8 @@
 mod api;
 mod events;
 mod waveformat;
+pub mod set_default;
+
 pub use api::*;
 pub use events::*;
 pub use waveformat::*;
